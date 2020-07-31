@@ -46,6 +46,10 @@ module.exports = {
     migrations: {
       directory: './api/data/migrations',
       tableName: 'knex_migrations'
-    }
+    },
+    seeds: {
+      directory: './api/data/seeds'
+    },
+    useNullAsDefault: true
   }
 }
