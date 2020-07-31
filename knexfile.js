@@ -44,6 +44,7 @@ module.exports = {
       max: 10
     },
     migrations: {
+      directory: './api/data/migrations',
       tableName: 'knex_migrations'
     }
   }
